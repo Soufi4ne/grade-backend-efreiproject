@@ -1,0 +1,107 @@
+{
+  "item": [
+    {
+      "name": "grades",
+      "item": [
+        {
+          "name": "get all grades",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/grades",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["grades"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get one student grades",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/grades",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["grades"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "add grades",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"grade\": 32,\n    \"studentName\": \"Jane Doe\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/grades",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["grades"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "students",
+      "item": [
+        {
+          "name": "get All Students",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/students",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["students"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Add student",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"studentName\" : \"Brian\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/students",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "3000",
+              "path": ["students"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
